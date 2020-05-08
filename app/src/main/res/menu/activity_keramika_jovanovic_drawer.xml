@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_o_nama"
+            android:icon="@drawable/o_nama"
+            android:title="O nama" />
+        <item
+            android:id="@+id/nav_galerija"
+            android:icon="@drawable/galerija"
+            android:title="Galerija" />
+    </group>
+
+    <item
+        android:id="@+id/nav_prodajni_saloni"
+        android:icon="@drawable/prodajni_saloni"
+        android:title="Prodajni saloni" />
+    <item android:title="Kontakt">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Podeli" />
+            <item
+                android:id="@+id/nav_sendEmail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pošalji" />
+        </menu>
+    </item>
+
+</menu>
